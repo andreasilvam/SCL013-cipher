@@ -1,3 +1,6 @@
-import cipher from './cipher.js';
+let texto1 = document.getElementById("mensaje1").value;
+console.log(texto1);
 
-console.log(cipher);
+function codificar() {
+    console.log(texto1);
+}
