@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <head>
+    <meta charset="utf-8">
+    <title>Cifrado César</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+
+<img class="avatar2" src="logo.jpg" alt="logo">
+  <div class="login-box2">
+
+<!--caja blanca contenedora-->
+<section id="content-cipher" class="content">
+
+      <!--cabecera-->
+<header class="content-header">
+<p><i>A continuación podrás escribir tus mensajes confidenciales para cifrar o descifrar y estar al tanto con lo que esta sucendiendo a tu alrededor en la manifestación</i></p>
+</header>
+
+<!--caja codificar-->
+<div id="content-msg-encode" class="msg-style display_block">
+<p><b> Ingrese su mensaje:</b></p>
+</div>
+    
+<input type="text" id="cifrar" class="box-msg-style" placeholder="Texto a cifrar">
+<input type="button" value="codificar" onclick="codificar()">
+
+<!--caja decodificar-->
+
+<input type="text" id="descifrar" class="msg-ckeck" placeholder="Aqui aparecera el texto cifrado">
+<input type="button" value="decodificar" onclick="decodificar()">
+
+<!--encriptar a codigos para codificar y decodificar-->
+<script src="index.js" type="module"></script>
+
+</body>
+</html>
