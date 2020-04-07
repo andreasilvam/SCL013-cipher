@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
   <head>
+
     <meta charset="utf-8">
     <title>Cifrado César</title>
     <link rel="stylesheet" href="style2.css">
@@ -9,9 +9,8 @@
 </head>
 <body>
 
-<img class="avatar2" src="logo.jpg" alt="logo">
+<img class="avatar2" src="Img/logo.jpg" alt="logo">
   <div class="login-box2">
-
 <!--caja blanca contenedora-->
 <section id="content-cipher" class="content">
 
@@ -21,20 +20,20 @@
 </header>
 
 <!--caja codificar-->
-<div id="content-msg-encode" class="msg-style display_block">
 <p><b> Ingrese su mensaje:</b></p>
-</div>
     
-<input type="text" id="cifrar" class="box-msg-style" placeholder="Texto a cifrar">
+<input type="text" id="mensaje1" class="box-mensaje1" placeholder="Texto a cifrar">
 <input type="button" value="codificar" onclick="codificar()">
+
 
 <!--caja decodificar-->
 
-<input type="text" id="descifrar" class="msg-ckeck" placeholder="Aqui aparecera el texto cifrado">
+<input type="text" id="mensaje2" class="box-mensaje2" placeholder="Texto a cifrar">
 <input type="button" value="decodificar" onclick="decodificar()">
 
 <!--encriptar a codigos para codificar y decodificar-->
-<script src="index.js" type="module"></script>
+<script src="app.js"></script>
+
 
 </body>
 </html>

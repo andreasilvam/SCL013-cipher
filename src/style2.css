@@ -1,0 +1,72 @@
+.avatar2 {
+    text-align:left;
+    padding: 8px 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    }
+    
+    .login-box2 {
+    width: 400px;
+    height: 500px;
+    top: 35%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    box-sizing:border-box;
+    }
+    
+    body {
+      background:url(Img/bg.jpg);
+      background-size: cover;
+      font-family: "Open Sans";
+      font-size: 1em;
+      margin: 0;
+      padding:0;
+      background-size: cover;
+    }
+    
+    p {
+    color:black;
+    font-family: "Opens sans";
+    font-size: 20px;
+    top:300px;
+    }
+    
+    .content-header p {
+        text-align: center;
+        font-family: Open sans;
+        color: #3f3844;
+    }
+    
+    .content {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        background-color: #ffffff;
+    }
+    
+    .msg-style {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .box-msg-style {
+        width: 100%;
+        height: 130px;
+        resize: none;
+        outline: 0px;
+    }
+    
+    .msg-ckeck {
+        width: 97%;
+        height: auto;
+        min-height: 130px;
+        background-color: white;
+        margin-top: 20px;
+        padding: 10px;
+    }
