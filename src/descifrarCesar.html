@@ -10,8 +10,10 @@
 
 <img class="avatar2" src="Img/logo.jpg" alt="logo">
   <div class="login-box2">
+
 <!--caja blanca contenedora-->
 <section id="content-cipher" class="content">
+  
       <!--cabecera-->
 <header class="content-header">
 <p><i>A continuación podrás escribir tus mensajes confidenciales para cifrar o descifrar y estar al tanto con lo que esta sucendiendo a tu alrededor en la manifestación</i></p>
@@ -22,16 +24,23 @@
 <p><b> Ingrese su mensaje:</b></p>
     
 <input type="text" id="mensaje1" class="box-mensaje1" placeholder="Texto a cifrar">
-<input type="button" id="codificar" value="codificar" onclick="codificar()">
 
+ <label class="label">Ingrese N° de desplazamiento</label>
+ <input type="number" id="number" class="offset">
+
+<button id="codificar">codificar</button>
+
+<!-- caja de texto-->
+<!-- Creando una caja de texto para mostrar el resultado -->
+<input type="text" id="salidaTexto" placeholder="Resultado">
 
 <!--caja decodificar-->
 
 <input type="text" id="mensaje2" class="box-mensaje2" placeholder="Texto a cifrar">
-<input type="button" value="decodificar" onclick="decodificar()">
+<button id="decodificar">codificar</button>
 
 <!--encriptar a codigos para codificar y decodificar-->
-<script src="app.js"></script>
+<script src="index.js" type="module"> </script>
 
 </body>
 </html>
