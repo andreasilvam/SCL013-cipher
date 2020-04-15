@@ -1,0 +1,54 @@
+.avatar2 {
+    text-align:left;
+    padding: 8px 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    }
+
+    .login-box2 {
+        width: 320px;
+        height: 450px;
+        background: white;
+        top: 40%;
+        left: 50%;
+        position:absolute;
+        transform: translate(-50%, -50%);
+        box-sizing:border-box;
+        padding: 10px 30px;
+        border-radius: 20px;
+        }
+ 
+    body {
+      background:url(Img/bg.jpg);
+      background-size: cover;
+
+    }
+    
+    p {
+    color:black;
+    font-family: "Opens sans";
+    font-size: 17px;
+    }
+    
+    .content-header p {
+        text-align: center;
+        font-family: Open sans;
+        color: #3f3844;
+        font-size: 18px;
+    }
+    
+    .content {
+        width: 100%;
+        height: 50%;
+        border-radius: 10px;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 13px;
+        padding: 5px;
+        font-size: 13px;
+    }
+
+   
