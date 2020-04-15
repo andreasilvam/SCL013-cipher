@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
-
+<head>
     <meta charset="utf-8">
     <title>Cifrado César</title>
     <link rel="stylesheet" href="style2.css">
@@ -10,10 +9,9 @@
 <body>
 
 <img class="avatar2" src="Img/logo.jpg" alt="logo">
-  <div class="login-box2">
+<div class="login-box2">
 <!--caja blanca contenedora-->
 <section id="content-cipher" class="content">
-
       <!--cabecera-->
 <header class="content-header">
 <p><i>A continuación podrás escribir tus mensajes confidenciales para cifrar o descifrar y estar al tanto con lo que esta sucendiendo a tu alrededor en la manifestación</i></p>
@@ -21,19 +19,20 @@
 
 <!--caja codificar-->
 <p><b> Ingrese su mensaje:</b></p>
-    
-<input type="text" id="mensaje1" class="box-mensaje1" placeholder="Texto a cifrar">
-<input type="button" value="codificar" onclick="codificar()">
+<input type="text" id="mensaje1" placeholder="Escribe tu mensaje">
 
+<!--caja desplazamiento-->
+<input type="number" id="number" placeholder="Escribe N° de posiciones">
 
-<!--caja decodificar-->
+<!--botones codificar y decodificar-->
+<input type="button" id="codificar" value="Codificar" class="boton">
+<input type="button" id="decodificar" value="Decodificar" class="boton">
 
-<input type="text" id="mensaje2" class="box-mensaje2" placeholder="Texto a cifrar">
-<input type="button" value="decodificar" onclick="decodificar()">
+<!-- Creando una caja de texto para mostrar el resultado -->
+<input type="text" id="salidaTexto" placeholder="Resultado">
 
 <!--encriptar a codigos para codificar y decodificar-->
-<script src="app.js"></script>
-
+<script src="index.js" ></script>
 
 </body>
 </html>
