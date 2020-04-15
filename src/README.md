@@ -25,3 +25,12 @@ Y se obtendrá el mensaje final cifrado o descifrado en una caja de texto.
 
   Porque cifra el mensaje de forma que solo el emisor y receptor lo entienda, y así, 
   cualquier persona ajena que acceda a las conversaciones no logre descifrar esta.
+  
+   ### Prototipado
+   
+   ![paginaPrincipal](p1.jpg)
+  
+  ### Imagen final del proyecto
+  
+  
+  
