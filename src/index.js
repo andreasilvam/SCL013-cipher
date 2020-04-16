@@ -7,5 +7,5 @@ btnCod.addEventListener("click",() => {
   let offset =  parseInt(document.getElementById("numb").value);
   console.log (offset);
   //let resultado = document.getElementById("salidaTexto");
-  document.getElementById("mensaje-codificado").innerHTML = window.cipher.encode (string,offset);
+  document.getElementById("mensaje-codificado").innerHTML = cipher.encode (string,offset);
 });
