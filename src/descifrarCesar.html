@@ -1,38 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Cifrado César</title>
-    <link rel="stylesheet" href="style2.css">
-    
+  <meta charset="utf-8">
+  <title>Cifrado César</title>
+  <link rel="stylesheet" href="style2.css">   
 </head>
 <body>
-
-<img class="avatar2" src="Img/logo.jpg" alt="logo">
-<div class="login-box2">
-<!--caja blanca contenedora-->
-<section id="content-cipher" class="content">
+  <img class="avatar2" src="Img/logo.jpg" alt="logo">
+  <div class="login-box2">
+ 
       <!--cabecera-->
-<header class="content-header">
-<p><i>A continuación podrás escribir tus mensajes confidenciales para cifrar o descifrar y estar al tanto con lo que esta sucendiendo a tu alrededor en la manifestación</i></p>
-</header>
-
-<!--caja codificar-->
-<p><b> Ingrese su mensaje:</b></p>
-<input type="text" id="mensaje1" placeholder="Escribe tu mensaje">
-
-<!--caja desplazamiento-->
-<input type="number" id="number" placeholder="Escribe N° de posiciones">
-
-<!--botones codificar y decodificar-->
-<input type="button" id="codificar" value="Codificar" class="boton">
-<input type="button" id="decodificar" value="Decodificar" class="boton">
-
-<!-- Creando una caja de texto para mostrar el resultado -->
-<input type="text" id="salidaTexto" placeholder="Resultado">
-
-<!--encriptar a codigos para codificar y decodificar-->
-<script src="index.js" ></script>
-
-</body>
-</html>
+      <header class="content-header">
+        <p><i>A continuación podrás escribir tus mensajes confidenciales para cifrar o descifrar y estar al tanto con lo que esta sucendiendo a tu alrededor en la manifestación</i></p>
+      </header>
+      <!--caja codificar-->
+      <p><b> Ingrese su mensaje:</b></p>
+      <input type="text" id="mensaje1" class="box-mensaje1" placeholder="Texto a cifrar">
+      <!--caja desplazamiento-->
+      <label class="label"> Ingrese N° de desplazamiento</label>
+      <input type="number" id="numb" class="offset">
+      <!--botones codificar y decodificar-->
+      <button id="codificar">codificar</button>
+      <!--resultado-->
+      <p id="mensaje-codificado"></p>
+      <!--caja decodificar-->
+      <input type="text" id="mensaje2" class="box-mensaje2" placeholder="Texto a decifrar">
+      <button id="decodificar">decodificar</button>
+      <!--encriptar a codigos para codificar y decodificar-->
+      <script src="index.js" type="module"> </script>
+    </div>
+    </body>
+    </html>
