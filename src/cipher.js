@@ -1,4 +1,4 @@
-window.cipher = {
+const cipher = {
     encode :(string, offset) => {
         // console.log(offset); 
         //console.log(string);
