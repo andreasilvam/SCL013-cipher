@@ -51,10 +51,3 @@ input {
     font-size: 13px;
 }
 
-.box-mensaje2 {
-    width: 100%;
-    height: 70px;
-    resize: none;
-    outline: 0px;
-    margin-top: 20px;
-}
