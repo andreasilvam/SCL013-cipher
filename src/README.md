@@ -1,3 +1,5 @@
+### ACAPP
+
 ### Definición del producto
 
 En este proyecto trabajamos en dupla, pensando en como ayudar a comunicarse a 
@@ -25,3 +27,14 @@ Y se obtendrá el mensaje final cifrado o descifrado en una caja de texto.
 
   Porque cifra el mensaje de forma que solo el emisor y receptor lo entienda, y así, 
   cualquier persona ajena que acceda a las conversaciones no logre descifrar esta.
+  
+   ### Prototipado
+   
+   ![paginaPrincipal](p1.jpg)
+   ![paginaDeFormulario](p2.jpg)
+  
+  ### Imagen final del proyecto
+  
+  ![paginaPrincipal](paginaprincipal.png)
+   ![paginaformulario](paginaformulario.png)
+  
