@@ -31,7 +31,7 @@ Y se obtendrá el mensaje final cifrado o descifrado en una caja de texto.
    ### Prototipado
    
    ![paginaPrincipal](p1.jpg)
-   ![paginaDeFormulario](P2.JPG)
+   ![paginaDeFormulario](p2.JPG)
   
   ### Imagen final del proyecto
   
