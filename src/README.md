@@ -31,6 +31,7 @@ Y se obtendrá el mensaje final cifrado o descifrado en una caja de texto.
    ### Diagrama de flujo y Sketch
    
    ![sketch](sketchACAPP.jpg)
+   
    Luego de un feedback de las compañeras concluimos hacer mas simple la página del contenido, dejandola solo como base codificar y decodificar, con un mensaje de descripción.
    
    ### Prototipado
