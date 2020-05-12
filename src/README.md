@@ -28,10 +28,11 @@ Y se obtendrá el mensaje final cifrado o descifrado en una caja de texto.
   Porque cifra el mensaje de forma que solo el emisor y receptor lo entienda, y así, 
   cualquier persona ajena que acceda a las conversaciones no logre descifrar esta.
   
-   ### Prototipado
+   ### Diagrama de flujo
    
    ![sketch](sketchACAPP.jpg)
    
+   ### Prototipado
    La primera página se ingresa un nombre de usuario y una contraseña que será un filtro para poder ingresar a la página principal. Una vez que se ingresa se lee una pequeña descripción y luego aparecen los cuadros de texto para cifrar el mensaje.
 
    ![paginaPrincipal](p1.jpg)
